@@ -120,8 +120,8 @@
 
     span.title-segound{
     font-family: 'Camphor Pro';
-    font-size: 4.5rem;
-    font-weight: 900;
+    font-size: 4rem;
+    font-weight: bold;
     font-display: swap;
     position: relative;
     overflow-wrap: break-word;
@@ -233,14 +233,13 @@
 
     .grid-title {
     position: absolute;
-    right: 35rem;
-    top: 27rem;
+    left: 8rem;
+    top: 16rem;
     bottom: 0;
     height: 6rem;
     display: flex;
     flex-direction: column;
     }
-
 
     .grid-04-box {
     position: absolute;
@@ -254,8 +253,6 @@
     height: 16rem;
     gap: 1rem;
     }
-
-
 
     .grid-05{
     display: flex;
