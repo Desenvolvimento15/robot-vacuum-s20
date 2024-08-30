@@ -81,21 +81,23 @@
     --background-white: #ffff;
     --background-black: #111;
     --background-bege: #c59553;
+    --background-silver: #f1f1f1;
 
     --text-white: #fff;
     --text-preto: #000;
-    --text-verde: #c59553;
+    --text-bege: #D1A152;
     --text-silver: #c7c7c7;
     }
 
     .txt-branco {color: var(--text-white);}
     .txt-preto{color: var(--text-preto)}
-    .txt-bege{color: var(--text-verde);}
+    .txt-bege{color: var(--text-bege);}
     .txt-silver{color: var(--text-silver);}
 
     .boxcolor-white{background-color: var(--background-white);}
     .boxcolor-bege{background-color: var(--background-bege);}
     .boxcolor-black{background-color: var(--background-black);}
+    .boxcolor-silver{background-color: var(--background-silver);}
 
     /***************************** Img & Icons ******************************************/
 
@@ -239,40 +241,21 @@
     flex-direction: column;
     }
 
-    .grid-container-03 {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 10rem;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    max-width: 38%;
-    }
-
-    .grid-04{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-top: 2rem;
-    gap: 1rem;
-    align-items: stretch;
-    justify-content: flex-start;
-    margin-bottom: 5rem;
-    }
 
     .grid-04-box {
     position: absolute;
     right: 0;
-    left: 43rem;
+    left: 61px;
     top: 10rem;
     bottom: 0;
     display: flex;
     flex-direction: column;
     max-width: 45%;
-    height: 20rem;
+    height: 16rem;
     gap: 1rem;
     }
+
+
 
     .grid-05{
     display: flex;
