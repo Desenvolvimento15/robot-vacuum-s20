@@ -405,12 +405,18 @@
     /***************************** Mobile ************************************************/
 
     @media only screen and (max-width: 920px) {
+    
+    .container{
+        display: none;
+    }
 
     .spacing{padding: 1rem;}
     .spacing-galery{padding: 1rem;}
 
     .img-desk{display: none;}
     .img-mob{display: block;}
+
+
 
     /***************************** Grid *************************************************/
 
