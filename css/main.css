@@ -406,9 +406,7 @@
 
     @media only screen and (max-width: 920px) {
     
-    .container{
-        display: none;
-    }
+    .container{display: none;}
 
     .spacing{padding: 1rem;}
     .spacing-galery{padding: 1rem;}
