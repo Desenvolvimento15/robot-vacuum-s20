@@ -406,8 +406,7 @@
 
     @media only screen and (max-width: 920px) {
     
-    .container{display: none;}
-
+    
     .spacing{padding: 1rem;}
     .spacing-galery{padding: 1rem;}
 
@@ -429,9 +428,49 @@
     flex-direction: column;
     }
 
+    .grid-04-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 1rem;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 19rem;
+        gap: 1rem;
+        padding: 1rem;
+    }
     /***************************** Fonts Text ******************************************/
 
+    h2.title-xiaomi{
+    font-family: 'Xiaomi Brand';
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-display: swap;
+    position: relative;
+    overflow-wrap: break-word;
+    }
 
+    span.title-segound{
+    font-family: 'Camphor Pro';
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-display: swap;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.3;
+    }
+
+    p.text-title{
+    font-family: 'Camphor Pro';
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-display: swap;
+    position: relative;
+    overflow-wrap: break-word;
+    }
+    
 
 
 
