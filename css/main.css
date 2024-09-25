@@ -415,15 +415,22 @@
 
     /***************************** Grid *************************************************/
 
+    
+
     .grid-title {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    height: 0;
-    display: flex;
-    flex-direction: column;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 125px;
+        bottom: 0;
+        height: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .grid-04-box {
@@ -440,11 +447,130 @@
     padding: 1rem;
     }
 
+    .grid-06-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 50px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 19rem;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .grid-07-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 36px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 17rem;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .grid-09-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 30px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 17rem;
+        gap: 1rem;
+        padding: 1rem;
+    }
+  
+    
+    .grid-11-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 172px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .grid-12-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 28px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .grid-14-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 15px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 37rem;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .grid-15-box {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 52px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30%;
+        gap: 1rem;
+        flex-wrap: nowrap;
+        padding: 1rem;
+    }
+
+    .grid-icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: space-around;
+    }
+    
+    .grid-icons-02 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        width: 100%;
+        justify-content: space-around;
+        align-items: stretch;
+    }
     /***************************** Fonts Text ******************************************/
+
+    .txt-branco {color: var(--text-preto);}
 
     h2.title-xiaomi{
     font-family: 'Xiaomi Brand';
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 900;
     font-display: swap;
     position: relative;
@@ -453,7 +579,7 @@
 
     span.title-segound{
     font-family: 'Camphor Pro';
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     font-display: swap;
     position: relative;
@@ -463,13 +589,92 @@
 
     p.text-title{
     font-family: 'Camphor Pro';
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 400;
     font-display: swap;
     position: relative;
     overflow-wrap: break-word;
     }
     
+
+    .subtitle {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Camphor Pro';
+        position: relative;
+        overflow-wrap: break-word;
+        }
+    
+        h2.subtitle-left-bege {
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: 'Camphor Pro', sans-serif;
+        position: relative;
+        overflow-wrap: break-word;
+        }
+    
+        h2.subtitle-icon {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 800;
+        font-family: 'Camphor Pro', sans-serif;
+        position: relative;
+        overflow-wrap: break-word;
+        }
+    
+        h2.subtitle-left {
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 800;
+        font-family: 'Camphor Pro', sans-serif;
+        position: relative;
+        overflow-wrap: break-word;
+        }
+    
+        h2.subtitle-center {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 800;
+        font-family: 'Camphor Pro', sans-serif;
+        position: relative;
+        overflow-wrap: break-word;
+        }
+    
+        h2.subtitle-center-01 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: 'Camphor Pro', sans-serif;
+        position: relative;
+        overflow-wrap: break-word;
+        }
+    
+        p.p-center {
+        font-size: 0.9rem;
+        text-align: center;
+        font-family: 'Camphor Pro', sans-serif;
+        position: relative;
+        line-height: 1.3;
+        overflow-wrap: break-word;
+        }
+    
+        p.p-left {
+        font-size: 0.9rem;
+        text-align: left;
+        font-family: 'Camphor Pro', sans-serif;
+        position: relative;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+        }
+    
+        p.p-notas{
+        text-align: left;
+        font-size: 1rem;
+        padding: 2rem;
+        font-family: 'Camphor Pro', sans-serif;
+        }
 
 
 
