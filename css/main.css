@@ -191,6 +191,15 @@
     overflow-wrap: break-word;
     }
 
+    h2.subtitle-center-02 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Camphor Pro', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    }
+
     p.p-center {
     font-size: 1.1rem;
     text-align: center;
